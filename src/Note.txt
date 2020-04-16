@@ -1,0 +1,22 @@
+NOTES
+
+The code provided in this package was written by Julian N. Ilinca as a part of a Master's
+Thesis work for Aalto University.
+
+The code needs the Levenberg_marquardt and Jacobian toolboxes provided in the links
+below to run correctly. Place the m. files in the same folder as the rest of the source 
+code provided.
+
+https://www.mathworks.com/matlabcentral/fileexchange/53449-levenberg-marquardt-toolbox
+
+https://www.mathworks.com/matlabcentral/fileexchange/53440-jacobian-toolbox?s_tid=prof_contriblnk
+
+RUNNING THE CODE
+
+To run the code open the sim_main.m file and press play.
+You can choose how many time the code is run by changing the value of  the "n_calls" parameter at the 
+beggining of the function.
+
+To choose with which sampling frequency to simulate, first open the fiveGHz_main.m function and change the
+values of parameters "step" and "num_p" as shown in the comments.
+
